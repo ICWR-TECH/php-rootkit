@@ -62,7 +62,7 @@ exit();
 }
 ?>
 <?php
-$dir_raw = str_replace('\', "/", getcwd());
+$dir_raw = str_replace('\\', "/", getcwd());
 $host = $_SERVER['HTTP_HOST'];
 if($dn = $_GET['d']) {
   $_SESSION['dir'] = $dn;
